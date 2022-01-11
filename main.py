@@ -100,7 +100,8 @@ class Video:
 
 def main():
     root = Tk()
-    App(root, "D:/a.mp4")
+    App(root, 0)
+    # App(root, "D:/a.mp4")
     # App(root, "http://192.168.0.101:8080/video")
 
 
